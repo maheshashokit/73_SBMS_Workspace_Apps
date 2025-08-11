@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+		https://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context
+		https://www.springframework.org/schema/context/spring-context.xsd">
+
+     	<!-- configuring the Demo class -->
+     <bean id="demo" class="com.ashokit.spring.beans.Demo"/>
+     
+          <!--configuring the User class -->
+     <bean id="currentUser" class="com.ashokit.spring.beans.User">
+        <property name="username" value="Mahesh.ashokit"/>
+        <property name="password" value="Test@123"/>
+     </bean>
+     
+         <!--configuring the User class -->
+     <bean id="currentUser1" class="com.ashokit.spring.beans.User">
+        <property name="username" value="ashok.ashokit"/>
+        <property name="password" value="Ashokit@123"/>
+     </bean>
+     
+     
+     <!--  Read and execute spring provided annotations -->
+     <context:annotation-config/>
+       
+</beans>

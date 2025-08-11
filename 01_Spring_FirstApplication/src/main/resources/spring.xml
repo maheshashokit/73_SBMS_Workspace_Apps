@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       https://www.springframework.org/schema/beans/spring-beans.xsd">
+   
+     <!-- Configuring Java class as spring bean -->
+   <bean id="welcomeBean" class="com.ashokit.beans.Welcome">
+       <!-- configuring the value for message property by using setter injection -->
+       <property name="message" value="Welcome To AshokIT for SpringBoot....."/>
+   </bean>
+   
+    <!-- Configuring Java class as spring bean -->
+   <bean id="demoBean" class="com.ashokit.beans.Demo">
+       <!-- Configuring the value for topicName by using constructor injection -->
+       <constructor-arg name="topicName" value="Welcome To AshokIT Hyderabad..."/>
+   </bean>
+   
+    <!-- configuring Java Class as spring bean -->
+    <bean id="studentBean" class="com.ashokit.beans.Student" autowire="constructor">
+       <property name="studentId" value="AIT123"/>
+       <property name="name" value="Mahesh"/>
+       <property name="city" value="Hyderabad"/>
+       <property name="emailId" value="mahesh.ashokit@gmail.com"/>
+    </bean>
+    
+    <!-- configuring Java Class as spring bean -->
+    <bean id="course1" class="com.ashokit.beans.Course">
+       <property name="courseId" value="COURSE_AIT_1232"/>
+       <property name="name" value="SpringBootMicroservices"/>
+       <property name="courseFee" value="8000"/>
+    </bean>
+    
+     <!-- configuring Java Class as spring bean -->
+    <bean id="course" class="com.ashokit.beans.Course" primary="true">
+       <property name="courseId" value="COURSE_AIT_1232"/>
+       <property name="name" value="JavaFullStackDevelopment"/>
+       <property name="courseFee" value="8000"/>
+    </bean>
+   
+</beans>
