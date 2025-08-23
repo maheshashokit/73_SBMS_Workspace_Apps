@@ -1,0 +1,16 @@
+com:
+  ashokit:
+    address:
+      cityName: Chennai
+      doorNo: 1-324-443
+      streetName: XYZ1
+    colors:
+    - Red
+    - Yellow
+    - Orange
+    id: MIT12323
+    name: Suresh
+    salary: 20000
+spring:
+  application:
+    name: 08_SpringBoot_YamlFile
