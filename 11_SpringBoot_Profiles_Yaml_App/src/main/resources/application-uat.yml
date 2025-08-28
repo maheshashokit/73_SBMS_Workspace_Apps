@@ -1,0 +1,5 @@
+application:
+  emails: uat.ashokit@gmail.com
+database:
+  password: ashokit_uat
+  username: ashokit_uat

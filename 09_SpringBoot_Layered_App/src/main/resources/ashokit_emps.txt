@@ -1,0 +1,7 @@
+12344,Suresh,suresh.ashokit@gmail.com
+56566,Ramesh,Ramesh.ashokit@gmail.com
+89898,Viswandh,visu.ashokit@gmail.com
+56564,Mani,mani.ashokit@gmail.com
+98989,Avinash,avinash.ashokit@gmail.com
+54454,Anil,anil.ashokit@gmail.com
+78788,Karthik,karthik.ashokit@gmail.com

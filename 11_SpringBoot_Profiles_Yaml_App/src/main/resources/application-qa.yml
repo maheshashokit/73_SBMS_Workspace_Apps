@@ -1,0 +1,5 @@
+application:
+  emails: qa.ashokit@gmail.com
+database:
+  password: ashokit_qa
+  username: ashokit_qa

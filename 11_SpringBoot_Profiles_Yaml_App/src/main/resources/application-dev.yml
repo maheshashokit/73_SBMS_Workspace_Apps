@@ -1,0 +1,5 @@
+application:
+  emails: dev.ashokit@gmail.com
+database:
+  password: ashokit_dev
+  username: ashokit_dev
