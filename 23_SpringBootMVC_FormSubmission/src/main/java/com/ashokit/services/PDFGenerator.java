@@ -20,6 +20,7 @@ import com.lowagie.text.pdf.PdfWriter;
 import jakarta.servlet.http.HttpServletResponse;
 
 public class PDFGenerator {
+	
 	public void generate(List<EnquiryDTO> enquiryList, HttpServletResponse response)
 			throws DocumentException, IOException {
 

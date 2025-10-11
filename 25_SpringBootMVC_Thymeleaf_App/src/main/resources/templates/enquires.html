@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html xmlns:th="https://thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>enquires.html</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"></link>
+<body>
+
+  <h4 class="text-center bold bg-danger text-white p-3"><span th:text="${title}"></span></h4>
+  
+  <div class="container">
+     <a th:href = "@{/showNewEnquiry}" class="btn btn-primary btn-lg mb-3"> Add Enquiry </a>
+	
+      <div th:if=${!enquires.empty}>
+         <table class="table table-striped table-responsive-md border">
+         	<thead class="table-danger">
+				<tr>
+					<th>Enquiry Name</th>
+					<th>EmailId</th>
+					<th>ContactNo</th>
+					<th>Course</th>
+					<th>Operations</th>
+				</tr>
+			</thead>
+			<tbody>
+			   <tr th:each="enq:${enquires}">
+			     <td><span th:text="${enq.enquiryName}"></span></td>
+			     <td><span th:text="${enq.emailId}"></span></td>
+			     <td><span th:text="${enq.contactNo}"></span></td>
+			     <td><span th:text="${enq.course}"></span></td>
+			     <td>
+			        <a th:href="@{/editEnquiry/{id}(id=${enq.enquiryId})}" class="btn btn-primary">Edit</a>
+			        &nbsp;&nbsp;&nbsp;
+			        <a th:href="@{/deleteEnquiry/{id}(id=${enq.enquiryId})}" class="btn btn-danger" 
+			            onclick="return confirm('Do you want To Delete Enquiry Information?')">Delete</a>
+			     </td>
+			   </tr>			   
+			</tbody>
+         </table>
+      </div>
+  </div>
+</body>
+</html>
