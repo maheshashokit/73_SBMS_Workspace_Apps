@@ -1,0 +1,24 @@
+{
+  "employee" : {
+    "jobDetails" : {
+      "jobId" : "JD123",
+      "jobBand" : "A3"
+    },
+    "address" : [ {
+      "doorNo" : "1-2-3",
+      "cityName" : "Hyderabad",
+      "state" : "Telegana",
+      "type" : "Permanent"
+    }, {
+      "doorNo" : "3-2-1",
+      "cityName" : "Hyderabad",
+      "state" : "Telegana",
+      "type" : "Present"
+    } ],
+    "employeeId" : 1,
+    "employeeName" : "Ashok",
+    "employeeDesignation" : "SoftwareEngineer",
+    "employeeSalary" : 35000.0,
+    "employeeDoj" : "23-10-2025 08:14:22"
+  }
+}

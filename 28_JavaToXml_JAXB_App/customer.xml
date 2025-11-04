@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<customer>
+    <customerName>Ashok</customerName>
+    <customerLocation>Hyderabad</customerLocation>
+    <customerId>123</customerId>
+    <customerOrders>
+        <order>
+            <customerOrderId>OD123</customerOrderId>
+            <customerOrderBillAmount>25000.0</customerOrderBillAmount>
+        </order>
+        <order>
+            <customerOrderId>OD456</customerOrderId>
+            <customerOrderBillAmount>35000.0</customerOrderBillAmount>
+        </order>
+        <order>
+            <customerOrderId>OD789</customerOrderId>
+            <customerOrderBillAmount>45000.0</customerOrderBillAmount>
+        </order>
+    </customerOrders>
+</customer>
