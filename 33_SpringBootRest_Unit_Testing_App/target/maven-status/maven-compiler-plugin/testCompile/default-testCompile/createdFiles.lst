@@ -1,0 +1,4 @@
+com\ashokit\ApplicationTests.class
+com\ashokit\controller\VendorControllerTest.class
+com\ashokit\services\VendorServiceImplTest.class
+com\ashokit\dao\VendorRepositoryTest.class
