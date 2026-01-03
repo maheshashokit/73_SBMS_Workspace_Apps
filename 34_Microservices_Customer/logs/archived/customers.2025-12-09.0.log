@@ -1,0 +1,7 @@
+2025-12-09 07:32:19,908 INFO com.ashokit.Application [main] Starting Application using Java 17.0.7 with PID 7664 (G:\ASHOKIT_WORKSPACE\73_SPRINGBOOT_AND_MICROSERVICES\APP_WORKSPACE\34_Microservices_Customer\target\classes started by Ganesh in G:\ASHOKIT_WORKSPACE\73_SPRINGBOOT_AND_MICROSERVICES\APP_WORKSPACE\34_Microservices_Customer)
+2025-12-09 07:32:19,917 DEBUG com.ashokit.Application [main] Running with Spring Boot v4.0.0, Spring v7.0.1
+2025-12-09 07:32:19,925 INFO com.ashokit.Application [main] The following 1 profile is active: "prod"
+2025-12-09 07:32:32,493 INFO com.ashokit.Application [main] Started Application in 17.012 seconds (process running for 19.973)
+2025-12-09 07:33:19,518 DEBUG com.ashokit.controller.CustomerController [http-nio-9977-exec-2] Inside the CustomerController - getWelcomeMessage().....
+2025-12-09 07:37:31,787 DEBUG com.ashokit.controller.CustomerController [http-nio-9977-exec-8] Inside the CustomerController - createNewCustomer().....CustomerRequest(name=Sarath1, location=Hyderabad1, gender=Male, emailId=sarath1.ashokit@gmail.com, contactNo=123455)
+2025-12-09 07:37:31,922 INFO com.ashokit.controller.CustomerController [http-nio-9977-exec-8] Customer Response:::::CustomerResponse(id=1952, name=Sarath1, location=Hyderabad1, gender=Male, emailId=sarath1.ashokit@gmail.com, contactNo=123455, createdDate=2025-12-09T07:37:31.884485400, updatedDate=2025-12-09T07:37:31.884485400, addressResponse=null)

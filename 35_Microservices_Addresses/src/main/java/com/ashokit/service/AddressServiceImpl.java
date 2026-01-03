@@ -83,6 +83,7 @@ public class AddressServiceImpl implements AddressService {
 
 	@Override
 	public List<AddressResponse> getAllAddresses() {
+		System.out.println("PortNumber from all address:::::" + environment.getProperty("server.port"));
 		log.debug("Start:Inside the getAllAddresses Method......");
 		//Getting All Customers Details
 		List<Address> allAddresses = this.addressDao.findAll();

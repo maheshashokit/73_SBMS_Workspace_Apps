@@ -8,8 +8,8 @@ import org.springframework.web.bind.annotation.PathVariable;
 import com.ashokit.response.AddressResponse;
 import com.ashokit.response.AddressResponseList;
 
-@FeignClient(url= "${address.service.url}",name="Address-Service")
-//@FeignClient(name="ADDRESS-SERVICE", path="/api/address")
+//@FeignClient(url= "${address.service.name.url}",name="Address-Service")
+@FeignClient(name="ADDRESS-SERVICE", path="/api/address")
 public interface AddressClient {
 	
 	@GetMapping(value = "/")

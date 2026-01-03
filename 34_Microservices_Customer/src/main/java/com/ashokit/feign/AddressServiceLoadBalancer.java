@@ -1,4 +1,4 @@
-/*package com.ashokit.feign;
+package com.ashokit.feign;
 
 import org.springframework.cloud.client.loadbalancer.LoadBalanced;
 import org.springframework.cloud.loadbalancer.annotation.LoadBalancerClient;
@@ -14,4 +14,4 @@ public class AddressServiceLoadBalancer {
     Feign.Builder feBuilder(){
 		return Feign.builder();
 	}
-}*/
+}

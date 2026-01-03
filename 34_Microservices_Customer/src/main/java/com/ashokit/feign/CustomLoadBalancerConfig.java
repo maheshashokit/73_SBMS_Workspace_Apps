@@ -1,4 +1,4 @@
-/*package com.ashokit.feign;
+package com.ashokit.feign;
 
 import org.springframework.cloud.client.ServiceInstance;
 import org.springframework.cloud.loadbalancer.core.RandomLoadBalancer;
@@ -18,4 +18,4 @@ public class CustomLoadBalancerConfig {
 		return new RandomLoadBalancer(
 				loadBalancerClientFactory.getLazyProvider(name, ServiceInstanceListSupplier.class), name);
 	}
-}*/
+}

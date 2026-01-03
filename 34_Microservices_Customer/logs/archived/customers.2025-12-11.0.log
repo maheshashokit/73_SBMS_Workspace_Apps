@@ -1,0 +1,82 @@
+2025-12-11 07:16:10,499 INFO com.ashokit.Application [main] Starting Application using Java 17.0.7 with PID 15936 (G:\ASHOKIT_WORKSPACE\73_SPRINGBOOT_AND_MICROSERVICES\APP_WORKSPACE\34_Microservices_Customer\target\classes started by Ganesh in G:\ASHOKIT_WORKSPACE\73_SPRINGBOOT_AND_MICROSERVICES\APP_WORKSPACE\34_Microservices_Customer)
+2025-12-11 07:16:10,505 DEBUG com.ashokit.Application [main] Running with Spring Boot v4.0.0, Spring v7.0.1
+2025-12-11 07:16:10,507 INFO com.ashokit.Application [main] The following 1 profile is active: "prod"
+2025-12-11 07:16:23,458 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Your project setup is incompatible with our requirements due to following reasons:
+
+- Spring Cloud Sleuth is not compatible with this Spring Cloud release train
+
+
+Action:
+
+Consider applying the following actions:
+
+- Migrate from Spring Cloud Sleuth to Micrometer Tracing .
+You can check the Sleuth 3.1 Migration Guide over here [https://github.com/micrometer-metrics/tracing/wiki/Spring-Cloud-Sleuth-3.1-Migration-Guide]. 
+If you want to disable this check, just set the property [spring.cloud.compatibility-verifier.enabled=false]
+
+
+2025-12-11 07:17:26,956 INFO com.ashokit.Application [main] Starting Application using Java 17.0.7 with PID 17600 (G:\ASHOKIT_WORKSPACE\73_SPRINGBOOT_AND_MICROSERVICES\APP_WORKSPACE\34_Microservices_Customer\target\classes started by Ganesh in G:\ASHOKIT_WORKSPACE\73_SPRINGBOOT_AND_MICROSERVICES\APP_WORKSPACE\34_Microservices_Customer)
+2025-12-11 07:17:26,991 DEBUG com.ashokit.Application [main] Running with Spring Boot v4.0.0, Spring v7.0.1
+2025-12-11 07:17:26,993 INFO com.ashokit.Application [main] The following 1 profile is active: "prod"
+2025-12-11 07:17:38,761 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Your project setup is incompatible with our requirements due to following reasons:
+
+- Spring Cloud Sleuth is not compatible with this Spring Cloud release train
+
+
+Action:
+
+Consider applying the following actions:
+
+- Migrate from Spring Cloud Sleuth to Micrometer Tracing .
+You can check the Sleuth 3.1 Migration Guide over here [https://github.com/micrometer-metrics/tracing/wiki/Spring-Cloud-Sleuth-3.1-Migration-Guide]. 
+If you want to disable this check, just set the property [spring.cloud.compatibility-verifier.enabled=false]
+
+
+2025-12-11 07:19:22,334 INFO com.ashokit.Application [main] Starting Application using Java 17.0.7 with PID 24244 (G:\ASHOKIT_WORKSPACE\73_SPRINGBOOT_AND_MICROSERVICES\APP_WORKSPACE\34_Microservices_Customer\target\classes started by Ganesh in G:\ASHOKIT_WORKSPACE\73_SPRINGBOOT_AND_MICROSERVICES\APP_WORKSPACE\34_Microservices_Customer)
+2025-12-11 07:19:22,348 DEBUG com.ashokit.Application [main] Running with Spring Boot v4.0.0, Spring v7.0.1
+2025-12-11 07:19:22,350 INFO com.ashokit.Application [main] The following 1 profile is active: "prod"
+2025-12-11 07:19:33,627 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Your project setup is incompatible with our requirements due to following reasons:
+
+- Spring Cloud Sleuth is not compatible with this Spring Cloud release train
+
+
+Action:
+
+Consider applying the following actions:
+
+- Migrate from Spring Cloud Sleuth to Micrometer Tracing .
+You can check the Sleuth 3.1 Migration Guide over here [https://github.com/micrometer-metrics/tracing/wiki/Spring-Cloud-Sleuth-3.1-Migration-Guide]. 
+If you want to disable this check, just set the property [spring.cloud.compatibility-verifier.enabled=false]
+
+
+2025-12-11 07:20:37,444 INFO com.ashokit.Application [main] Starting Application using Java 17.0.7 with PID 10612 (G:\ASHOKIT_WORKSPACE\73_SPRINGBOOT_AND_MICROSERVICES\APP_WORKSPACE\34_Microservices_Customer\target\classes started by Ganesh in G:\ASHOKIT_WORKSPACE\73_SPRINGBOOT_AND_MICROSERVICES\APP_WORKSPACE\34_Microservices_Customer)
+2025-12-11 07:20:37,449 DEBUG com.ashokit.Application [main] Running with Spring Boot v4.0.0, Spring v7.0.1
+2025-12-11 07:20:37,451 INFO com.ashokit.Application [main] The following 1 profile is active: "prod"
+2025-12-11 07:20:48,541 INFO com.ashokit.Application [main] Started Application in 15.377 seconds (process running for 16.986)
+2025-12-11 07:22:04,671 INFO com.ashokit.Application [main] Starting Application using Java 17.0.7 with PID 23388 (G:\ASHOKIT_WORKSPACE\73_SPRINGBOOT_AND_MICROSERVICES\APP_WORKSPACE\34_Microservices_Customer\target\classes started by Ganesh in G:\ASHOKIT_WORKSPACE\73_SPRINGBOOT_AND_MICROSERVICES\APP_WORKSPACE\34_Microservices_Customer)
+2025-12-11 07:22:04,675 DEBUG com.ashokit.Application [main] Running with Spring Boot v4.0.0, Spring v7.0.1
+2025-12-11 07:22:04,676 INFO com.ashokit.Application [main] The following 1 profile is active: "prod"

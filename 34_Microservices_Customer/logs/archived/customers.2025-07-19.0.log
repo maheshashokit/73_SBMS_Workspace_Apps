@@ -1,0 +1,216 @@
+2025-07-19 07:02:22,327 INFO com.ashokit.Application [main] Starting Application using Java 17.0.7 with PID 8992 (G:\ASHOKIT_WORKSPACE\62_SPRINGBOOT_AND_MICROSERVOCES\APP_WORKSPACE\38_Microservices_Customer\target\classes started by Ganesh in G:\ASHOKIT_WORKSPACE\62_SPRINGBOOT_AND_MICROSERVOCES\APP_WORKSPACE\38_Microservices_Customer)
+2025-07-19 07:02:22,359 DEBUG com.ashokit.Application [main] Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-07-19 07:02:22,361 INFO com.ashokit.Application [main] The following 1 profile is active: "prod"
+2025-07-19 07:02:33,521 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Your project setup is incompatible with our requirements due to following reasons:
+
+- Spring Cloud Sleuth is not compatible with this Spring Cloud release train
+
+
+Action:
+
+Consider applying the following actions:
+
+- Migrate from Spring Cloud Sleuth to Micrometer Tracing .
+You can check the Sleuth 3.1 Migration Guide over here [https://github.com/micrometer-metrics/tracing/wiki/Spring-Cloud-Sleuth-3.1-Migration-Guide]. 
+If you want to disable this check, just set the property [spring.cloud.compatibility-verifier.enabled=false]
+
+
+2025-07-19 07:06:40,024 INFO com.ashokit.Application [main] Starting Application using Java 17.0.7 with PID 4788 (G:\ASHOKIT_WORKSPACE\62_SPRINGBOOT_AND_MICROSERVOCES\APP_WORKSPACE\38_Microservices_Customer\target\classes started by Ganesh in G:\ASHOKIT_WORKSPACE\62_SPRINGBOOT_AND_MICROSERVOCES\APP_WORKSPACE\38_Microservices_Customer)
+2025-07-19 07:06:40,034 DEBUG com.ashokit.Application [main] Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-07-19 07:06:40,036 INFO com.ashokit.Application [main] The following 1 profile is active: "prod"
+2025-07-19 07:06:50,485 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Your project setup is incompatible with our requirements due to following reasons:
+
+- Spring Cloud Sleuth is not compatible with this Spring Cloud release train
+
+
+Action:
+
+Consider applying the following actions:
+
+- Migrate from Spring Cloud Sleuth to Micrometer Tracing .
+You can check the Sleuth 3.1 Migration Guide over here [https://github.com/micrometer-metrics/tracing/wiki/Spring-Cloud-Sleuth-3.1-Migration-Guide]. 
+If you want to disable this check, just set the property [spring.cloud.compatibility-verifier.enabled=false]
+
+
+2025-07-19 07:09:34,501 INFO com.ashokit.Application [main] Starting Application using Java 17.0.7 with PID 20296 (G:\ASHOKIT_WORKSPACE\62_SPRINGBOOT_AND_MICROSERVOCES\APP_WORKSPACE\38_Microservices_Customer\target\classes started by Ganesh in G:\ASHOKIT_WORKSPACE\62_SPRINGBOOT_AND_MICROSERVOCES\APP_WORKSPACE\38_Microservices_Customer)
+2025-07-19 07:09:34,503 DEBUG com.ashokit.Application [main] Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-07-19 07:09:34,503 INFO com.ashokit.Application [main] The following 1 profile is active: "prod"
+2025-07-19 07:09:43,468 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Your project setup is incompatible with our requirements due to following reasons:
+
+- Spring Cloud Sleuth is not compatible with this Spring Cloud release train
+
+
+Action:
+
+Consider applying the following actions:
+
+- Migrate from Spring Cloud Sleuth to Micrometer Tracing .
+You can check the Sleuth 3.1 Migration Guide over here [https://github.com/micrometer-metrics/tracing/wiki/Spring-Cloud-Sleuth-3.1-Migration-Guide]. 
+If you want to disable this check, just set the property [spring.cloud.compatibility-verifier.enabled=false]
+
+
+2025-07-19 07:13:47,454 INFO com.ashokit.Application [main] Starting Application using Java 17.0.7 with PID 15100 (G:\ASHOKIT_WORKSPACE\62_SPRINGBOOT_AND_MICROSERVOCES\APP_WORKSPACE\38_Microservices_Customer\target\classes started by Ganesh in G:\ASHOKIT_WORKSPACE\62_SPRINGBOOT_AND_MICROSERVOCES\APP_WORKSPACE\38_Microservices_Customer)
+2025-07-19 07:13:47,489 DEBUG com.ashokit.Application [main] Running with Spring Boot v3.3.4, Spring v6.1.13
+2025-07-19 07:13:47,491 INFO com.ashokit.Application [main] The following 1 profile is active: "prod"
+2025-07-19 07:13:49,067 ERROR org.springframework.boot.SpringApplication [main] Application run failed
+org.springframework.beans.factory.BeanDefinitionStoreException: Invalid bean definition with name 'com.ashokit.feign.AddressClient' defined in null: Invalid value type for attribute 'factoryBeanObjectType': java.lang.String
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryBean(AbstractAutowireCapableBeanFactory.java:857)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getType(AbstractBeanFactory.java:743)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAnnotationOnBean(DefaultListableBeanFactory.java:735)
+	at org.springframework.boot.sql.init.dependency.AnnotationDependsOnDatabaseInitializationDetector.detect(AnnotationDependsOnDatabaseInitializationDetector.java:36)
+	at org.springframework.boot.sql.init.dependency.DatabaseInitializationDependencyConfigurer$DependsOnDatabaseInitializationPostProcessor.detectDependsOnInitializationBeanNames(DatabaseInitializationDependencyConfigurer.java:152)
+	at org.springframework.boot.sql.init.dependency.DatabaseInitializationDependencyConfigurer$DependsOnDatabaseInitializationPostProcessor.postProcessBeanFactory(DatabaseInitializationDependencyConfigurer.java:115)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:363)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:197)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:789)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:607)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352)
+	at com.ashokit.Application.main(Application.java:19)
+2025-07-19 07:14:40,225 INFO com.ashokit.Application [main] Starting Application using Java 17.0.7 with PID 19876 (G:\ASHOKIT_WORKSPACE\62_SPRINGBOOT_AND_MICROSERVOCES\APP_WORKSPACE\38_Microservices_Customer\target\classes started by Ganesh in G:\ASHOKIT_WORKSPACE\62_SPRINGBOOT_AND_MICROSERVOCES\APP_WORKSPACE\38_Microservices_Customer)
+2025-07-19 07:14:40,228 DEBUG com.ashokit.Application [main] Running with Spring Boot v3.3.4, Spring v6.1.13
+2025-07-19 07:14:40,229 INFO com.ashokit.Application [main] The following 1 profile is active: "prod"
+2025-07-19 07:14:42,859 ERROR org.springframework.boot.SpringApplication [main] Application run failed
+org.springframework.beans.factory.BeanDefinitionStoreException: Invalid bean definition with name 'com.ashokit.feign.AddressClient' defined in null: Invalid value type for attribute 'factoryBeanObjectType': java.lang.String
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryBean(AbstractAutowireCapableBeanFactory.java:857)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getType(AbstractBeanFactory.java:743)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAnnotationOnBean(DefaultListableBeanFactory.java:735)
+	at org.springframework.boot.sql.init.dependency.AnnotationDependsOnDatabaseInitializationDetector.detect(AnnotationDependsOnDatabaseInitializationDetector.java:36)
+	at org.springframework.boot.sql.init.dependency.DatabaseInitializationDependencyConfigurer$DependsOnDatabaseInitializationPostProcessor.detectDependsOnInitializationBeanNames(DatabaseInitializationDependencyConfigurer.java:152)
+	at org.springframework.boot.sql.init.dependency.DatabaseInitializationDependencyConfigurer$DependsOnDatabaseInitializationPostProcessor.postProcessBeanFactory(DatabaseInitializationDependencyConfigurer.java:115)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:363)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:197)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:789)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:607)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352)
+	at com.ashokit.Application.main(Application.java:19)
+2025-07-19 07:15:35,539 INFO com.ashokit.Application [main] Starting Application using Java 17.0.7 with PID 3892 (G:\ASHOKIT_WORKSPACE\62_SPRINGBOOT_AND_MICROSERVOCES\APP_WORKSPACE\38_Microservices_Customer\target\classes started by Ganesh in G:\ASHOKIT_WORKSPACE\62_SPRINGBOOT_AND_MICROSERVOCES\APP_WORKSPACE\38_Microservices_Customer)
+2025-07-19 07:15:35,542 DEBUG com.ashokit.Application [main] Running with Spring Boot v3.3.4, Spring v6.1.13
+2025-07-19 07:15:35,543 INFO com.ashokit.Application [main] The following 1 profile is active: "prod"
+2025-07-19 07:15:37,047 ERROR org.springframework.boot.SpringApplication [main] Application run failed
+org.springframework.beans.factory.BeanDefinitionStoreException: Invalid bean definition with name 'com.ashokit.feign.AddressClient' defined in null: Invalid value type for attribute 'factoryBeanObjectType': java.lang.String
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryBean(AbstractAutowireCapableBeanFactory.java:857)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getType(AbstractBeanFactory.java:743)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAnnotationOnBean(DefaultListableBeanFactory.java:735)
+	at org.springframework.boot.sql.init.dependency.AnnotationDependsOnDatabaseInitializationDetector.detect(AnnotationDependsOnDatabaseInitializationDetector.java:36)
+	at org.springframework.boot.sql.init.dependency.DatabaseInitializationDependencyConfigurer$DependsOnDatabaseInitializationPostProcessor.detectDependsOnInitializationBeanNames(DatabaseInitializationDependencyConfigurer.java:152)
+	at org.springframework.boot.sql.init.dependency.DatabaseInitializationDependencyConfigurer$DependsOnDatabaseInitializationPostProcessor.postProcessBeanFactory(DatabaseInitializationDependencyConfigurer.java:115)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:363)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:197)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:789)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:607)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352)
+	at com.ashokit.Application.main(Application.java:19)
+2025-07-19 07:16:46,979 INFO com.ashokit.Application [main] Starting Application using Java 17.0.7 with PID 20512 (G:\ASHOKIT_WORKSPACE\62_SPRINGBOOT_AND_MICROSERVOCES\APP_WORKSPACE\38_Microservices_Customer\target\classes started by Ganesh in G:\ASHOKIT_WORKSPACE\62_SPRINGBOOT_AND_MICROSERVOCES\APP_WORKSPACE\38_Microservices_Customer)
+2025-07-19 07:16:46,981 DEBUG com.ashokit.Application [main] Running with Spring Boot v3.3.4, Spring v6.1.13
+2025-07-19 07:16:46,982 INFO com.ashokit.Application [main] The following 1 profile is active: "prod"
+2025-07-19 07:16:49,678 ERROR org.springframework.boot.SpringApplication [main] Application run failed
+org.springframework.beans.factory.BeanDefinitionStoreException: Invalid bean definition with name 'com.ashokit.feign.AddressClient' defined in null: Could not resolve placeholder 'address.service.url' in value "http://${address.service.url}"
+	at org.springframework.beans.factory.config.PlaceholderConfigurerSupport.doProcessProperties(PlaceholderConfigurerSupport.java:230)
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.processProperties(PropertySourcesPlaceholderConfigurer.java:207)
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.postProcessBeanFactory(PropertySourcesPlaceholderConfigurer.java:173)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:363)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:189)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:789)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:607)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352)
+	at com.ashokit.Application.main(Application.java:19)
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'address.service.url' in value "http://${address.service.url}"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:180)
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:126)
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:239)
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:210)
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.lambda$processProperties$0(PropertySourcesPlaceholderConfigurer.java:200)
+	at org.springframework.beans.factory.config.BeanDefinitionVisitor.resolveStringValue(BeanDefinitionVisitor.java:293)
+	at org.springframework.beans.factory.config.BeanDefinitionVisitor.resolveValue(BeanDefinitionVisitor.java:219)
+	at org.springframework.beans.factory.config.BeanDefinitionVisitor.visitPropertyValues(BeanDefinitionVisitor.java:147)
+	at org.springframework.beans.factory.config.BeanDefinitionVisitor.visitBeanDefinition(BeanDefinitionVisitor.java:85)
+	at org.springframework.beans.factory.config.PlaceholderConfigurerSupport.doProcessProperties(PlaceholderConfigurerSupport.java:227)
+	... 13 common frames omitted
+2025-07-19 07:17:45,983 INFO com.ashokit.Application [main] Starting Application using Java 17.0.7 with PID 17748 (G:\ASHOKIT_WORKSPACE\62_SPRINGBOOT_AND_MICROSERVOCES\APP_WORKSPACE\38_Microservices_Customer\target\classes started by Ganesh in G:\ASHOKIT_WORKSPACE\62_SPRINGBOOT_AND_MICROSERVOCES\APP_WORKSPACE\38_Microservices_Customer)
+2025-07-19 07:17:45,985 DEBUG com.ashokit.Application [main] Running with Spring Boot v3.3.4, Spring v6.1.13
+2025-07-19 07:17:45,987 INFO com.ashokit.Application [main] The following 1 profile is active: "prod"
+2025-07-19 07:17:47,520 ERROR org.springframework.boot.SpringApplication [main] Application run failed
+org.springframework.beans.factory.BeanDefinitionStoreException: Invalid bean definition with name 'com.ashokit.feign.AddressClient' defined in null: Invalid value type for attribute 'factoryBeanObjectType': java.lang.String
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryBean(AbstractAutowireCapableBeanFactory.java:857)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getType(AbstractBeanFactory.java:743)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAnnotationOnBean(DefaultListableBeanFactory.java:735)
+	at org.springframework.boot.sql.init.dependency.AnnotationDependsOnDatabaseInitializationDetector.detect(AnnotationDependsOnDatabaseInitializationDetector.java:36)
+	at org.springframework.boot.sql.init.dependency.DatabaseInitializationDependencyConfigurer$DependsOnDatabaseInitializationPostProcessor.detectDependsOnInitializationBeanNames(DatabaseInitializationDependencyConfigurer.java:152)
+	at org.springframework.boot.sql.init.dependency.DatabaseInitializationDependencyConfigurer$DependsOnDatabaseInitializationPostProcessor.postProcessBeanFactory(DatabaseInitializationDependencyConfigurer.java:115)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:363)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:197)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:789)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:607)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352)
+	at com.ashokit.Application.main(Application.java:19)
+2025-07-19 07:19:32,978 INFO com.ashokit.Application [main] Starting Application using Java 17.0.7 with PID 8516 (G:\ASHOKIT_WORKSPACE\62_SPRINGBOOT_AND_MICROSERVOCES\APP_WORKSPACE\38_Microservices_Customer\target\classes started by Ganesh in G:\ASHOKIT_WORKSPACE\62_SPRINGBOOT_AND_MICROSERVOCES\APP_WORKSPACE\38_Microservices_Customer)
+2025-07-19 07:19:32,982 DEBUG com.ashokit.Application [main] Running with Spring Boot v3.3.4, Spring v6.1.13
+2025-07-19 07:19:32,983 INFO com.ashokit.Application [main] The following 1 profile is active: "prod"
+2025-07-19 07:19:34,565 ERROR org.springframework.boot.SpringApplication [main] Application run failed
+org.springframework.beans.factory.BeanDefinitionStoreException: Invalid bean definition with name 'com.ashokit.feign.AddressClient' defined in null: Invalid value type for attribute 'factoryBeanObjectType': java.lang.String
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryBean(AbstractAutowireCapableBeanFactory.java:857)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getType(AbstractBeanFactory.java:743)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAnnotationOnBean(DefaultListableBeanFactory.java:735)
+	at org.springframework.boot.sql.init.dependency.AnnotationDependsOnDatabaseInitializationDetector.detect(AnnotationDependsOnDatabaseInitializationDetector.java:36)
+	at org.springframework.boot.sql.init.dependency.DatabaseInitializationDependencyConfigurer$DependsOnDatabaseInitializationPostProcessor.detectDependsOnInitializationBeanNames(DatabaseInitializationDependencyConfigurer.java:152)
+	at org.springframework.boot.sql.init.dependency.DatabaseInitializationDependencyConfigurer$DependsOnDatabaseInitializationPostProcessor.postProcessBeanFactory(DatabaseInitializationDependencyConfigurer.java:115)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:363)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:197)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:789)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:607)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352)
+	at com.ashokit.Application.main(Application.java:19)

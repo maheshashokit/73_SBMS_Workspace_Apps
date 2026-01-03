@@ -7,6 +7,8 @@ import java.util.stream.Collectors;
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.cloud.client.ServiceInstance;
+import org.springframework.cloud.client.discovery.DiscoveryClient;
 import org.springframework.http.HttpMethod;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
@@ -39,14 +41,14 @@ public class CustomerServiceImpl implements CustomerService {
 	@Autowired
 	private WebClient webClient;
 	
-	@Value("${address.service.url}")
+	@Value("${address.service.name.url}")
 	private String addressServiceUrl;
 	
 	@Autowired
 	private AddressClient addressClient;
 	
-	//@Autowired
-	//private DiscoveryClient discoveryClient;
+	@Autowired
+	private DiscoveryClient discoveryClient;
 		
 	@Override
 	public CustomerResponse createCustomer(CustomerRequest customerRequest) {
@@ -226,7 +228,7 @@ public class CustomerServiceImpl implements CustomerService {
 	}
 	
 	
-	/*private AddressResponse callAddressServiceByUsingDiscoveryClient(int customerId) {
+	private AddressResponse callAddressServiceByUsingDiscoveryClient(int customerId) {
 		//Fetching all Instances related to Address-Service
 		List<ServiceInstance> allInstances = discoveryClient.getInstances("ADDRESS-SERVICE");
 		
@@ -250,6 +252,6 @@ public class CustomerServiceImpl implements CustomerService {
 				}
 		  }
 		 return null;
-	}*/
+	}
 
 }

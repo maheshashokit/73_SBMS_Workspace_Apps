@@ -3,6 +3,8 @@ package com.ashokit.controller;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -21,19 +23,20 @@ import lombok.extern.slf4j.Slf4j;
 
 @RestController
 @RequestMapping(value = "/api/customers")
-//@RefreshScope
+@RefreshScope
 @Slf4j
 public class CustomerController {
 	
 	@Autowired
 	private CustomerService customerService;
 	
+	@Value("${welcome.message}")
+	private String welcomeMessage;
+	
 	@GetMapping(value="/welcome")
 	public ResponseEntity<String> getWelcomeMessage(){
 		log.debug("Inside the CustomerController - getWelcomeMessage().....");
-		String message = null;
-		message.length();
-		return new ResponseEntity<String>("",HttpStatus.OK);
+		return new ResponseEntity<String>(welcomeMessage,HttpStatus.OK);
 	}
 	
 	//Getting All the customers
